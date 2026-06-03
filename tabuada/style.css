@@ -1,0 +1,26 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: black;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+#divisor {
+  display: flex;
+  width: 60vh;
+  justify-content: space-between;
+}
+
+#opts {
+
+}
+
+#view {
+
+}
