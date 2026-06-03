@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="divisor">
+      <div id="opts">
+
+        <h1>Tabuada</h1>
+
+        <div class="field">
+          <h2>Número da Tabuada</h2>
+          <select name="Números" id="nuns"></select>
+        </div>
+
+        <div class="field">
+          <h2>Operador da Tabuada</h2>
+          <select name="oper" id="operator">
+            <option value="+">Soma (+)</option>
+            <option value="-">Subtração (-)</option>
+            <option value="/">Divisão (/)</option>
+            <option value="x">Multiplicação (x)</option>
+          </select>
+        </div>
+
+        <button onclick="gerar_tab()">Gerar Tabuada</button>
+      </div>
+
+      <div class="view">
+        <ul id="ulist"></ul>
+      </div>
+    </div>
+
+    <script src="./source.js"></script>
+  </body>
+</html>
