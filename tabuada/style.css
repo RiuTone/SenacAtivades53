@@ -1,7 +1,8 @@
 * {
   padding: 0px;
   margin: 0px;
-  color: black;
+  color: white;
+  font-family: "Google Sans Code", monospace;
 }
 
 body {
@@ -9,18 +10,66 @@ body {
   justify-content: center;
   align-content: center;
   height: 100vh;
+
+  background-color: #32373D;
 }
 
 #divisor {
   display: flex;
-  width: 60vh;
+  width: 100vh;
+  gap: 50px;
   justify-content: space-between;
 }
 
 #opts {
-
+  align-self: center;
+  background-color: #403C39;
+  border-radius: 8%;
+  box-shadow: 3px 0px #615D5C;
+  padding: 50px 35px;
 }
 
-#view {
+#opts select {
+  background-color: #2F2A26;
+  border-color: #615D5C;
+  color: #A6ABAF;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
 
+#opts button {
+  width: 100%;
+  background-color: #2F2A26;
+  color: #A6ABAF;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 4px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.view {
+  align-self: center;
+}
+
+.view li {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 5px;
+  list-style-type: none;
+  background-color: #403C39;
+  border: none;
+  border-radius: 8px;
+  font-weight: 100;
+  box-shadow: 3px 0px #615D5C;
+  padding: 4px 20px;
 }
